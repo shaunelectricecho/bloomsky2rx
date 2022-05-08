@@ -3,7 +3,7 @@
 
 Recently I purchased an expensive Bloomsky Sky2 device but it won't connect to their server and their tech support has vanished.
 
-Firstly I set up the Pi for as a wireless access point using these directions;
+Firstly I set up the Pi as a wireless access point using these directions;
 https://pimylifeup.com/raspberry-pi-wireless-access-point/
 
 I'm using a WiPi USB dongle with a pi 2B running Raspian buster and so removed the 'driver=nl80211' line in the hostapd.conf file.
