@@ -29,3 +29,5 @@ I'm a simple person so I liked the structure of the code in urljpeg.py many will
 I run my code thusly: **sudo python3 ./sky2rx.py 192.168.220.1**
 
 I've hard coded my site long/lats for the sun up/down times (to lazy to add then as arguments) so you'll need to change to yours. Basically the script sends the Sky 2 device the local sunrise, sunset and current times in the 200 response so that it only sends photos during the day.
+
+The suntime mudule is too-clever-by-half and assumes you'll want tomorrow's sunrise if it's already passed so you'll see I've subtracted a day's worth of seconds to cover that.
