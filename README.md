@@ -24,9 +24,9 @@ Then restarted the dnsmasq service: **sudo service dnsmasq restart**
 
 ### Run The Script ###
 I've butchered the code/ideas from these three sources:
-https://github.com/slowmotionprojects/icestupa/blob/master/bloomsky_offline_hack/
-https://www.andrewmohawk.com/2020/01/28/picking-apart-an-iot-camera-bloomsky/
-http://www.py4e.com/code3/urljpeg.py
+- https://github.com/slowmotionprojects/icestupa/blob/master/bloomsky_offline_hack/
+- https://www.andrewmohawk.com/2020/01/28/picking-apart-an-iot-camera-bloomsky/
+- http://www.py4e.com/code3/urljpeg.py
 
 I'm a simple person so I liked the structure of the code in urljpeg.py many will disagree.
 
