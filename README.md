@@ -6,7 +6,7 @@ Recently I purchased an expensive Bloomsky Sky2 device but it won't fully regist
 Firstly I set up the Pi as a wireless access point using these directions;
 https://pimylifeup.com/raspberry-pi-wireless-access-point/
 
-I'm using a WiPi USB dongle on a pi 2B running Raspian buster and so removed the 'driver=nl80211' line in the hostapd.conf file.
+I'm using a WiPi USB dongle on a pi 2B running Raspian buster and so removed the 'driver=nl80211' line from the hostapd.conf file.
 Also wherever the instructions use the term **wlan0** I replaced it with **wlx00c141000b99** gleamed from running the ifconfig command on the pi.
 
 Use the Bloomsky phone app to attach the Sky2 to the new pi wlan (right up to the point where it says 'name already exists loser'.
