@@ -1,7 +1,7 @@
 # bloomsky2rx
 ## Using a Raspberry Pi as a weather data and image server to replace the bloomsky.com server for a Bloomsky Sky2 device. 
 
-Recently I purchased an expensive Bloomsky Sky2 device but it won't connect to their server and their tech support has vanished.
+Recently I purchased an expensive Bloomsky Sky2 device but it won't fully register and their tech support has vanished.
 
 Firstly I set up the Pi as a wireless access point using these directions;
 https://pimylifeup.com/raspberry-pi-wireless-access-point/
